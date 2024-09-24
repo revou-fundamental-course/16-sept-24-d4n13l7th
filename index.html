@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyPortfolio</title>
     <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
 </head>
 
 <body>
@@ -26,16 +27,23 @@
 
     <main>
         <!--Home-->
-        <section id="section-home">
+        <section id="section-home", class="foto-bg-home">
             <header>
-                <h1>Hi User, Welcome to my Website</h1>
+                <h1 class="animate__animated animate__lightSpeedInLeft animate__fast">Hi <span id ="name">User</span>, Welcome to my Website</h1>
+                <p> </p>
             </header>
 
             <article>
-                <p></p>
+                <div class="container">
 
                 <!--Photo Banner-->
-                <div></div>
+                <div class="foto-diri"></div>
+
+                <!--Content-->
+                <p id="tab">My Name is <b><i>Ahmad Daniel Chalid</i></b>. People call me <b><i>"Ahmed"</i></b>.
+                This is my first website I,ve made. I,d like you to enjoy my Website!! </p>
+
+                </div>
             </article>
         </section>
 
@@ -51,6 +59,12 @@
 
         <!--Message Us-->
         <section id="section-message-us">
+            <button id="tombol">Ganti Nama</button>
+
+            <form>
+                <input required type="text" placeholder="Nama Anda" id="name-input">
+                <button></button>
+            </form>
 
         </section>
     </main>
@@ -58,5 +72,6 @@
     <footer>
 
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
