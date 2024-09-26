@@ -29,7 +29,7 @@
         <!--Home-->
         <section id="section-home", class="foto-bg-home">
             <header>
-                <h1 class="animate__animated animate__lightSpeedInLeft animate__fast">Hi <span id ="name">User</span>, Welcome to my Website</h1>
+                <h1 class="animate__animated animate__lightSpeedInLeft">Hi <span id ="name"> </span>, Welcome to my Website</h1>
                 <p> </p>
             </header>
 
@@ -47,31 +47,104 @@
             </article>
         </section>
 
-        <!--Our Profile-->
-        <section id="section-our-profile">
+    <hr>
 
+        <!--Our Profile-->
+        <section id="section-our-profile", class="container-profile">
+            <header>
+                <h2 class="animate__animated animate__fadeIn">Profile</h2>
+            </header>
+
+            <div class="profile-client">
+                <h3>Me</h3>
+            </div>
+
+            <p class="tab">My name is Ahmad Daniel Chalid. I'm 17 years old. I have experience in Software 
+                Engineering, Because I've tried coding since I was still in high school and I like it much.
+                </p>
         </section>
+
+    <hr>
 
         <!--Portfolio-->
         <section id="section-portfolio">
-
+            <header>
+                <h2 class="animate__animated animate__backInUp">My Portfolio</h2>
+            </header>
         </section>
+
+    <hr>
 
         <!--Message Us-->
         <section id="section-message-us">
+            <header>
+                <h2>Message Us</h2>
+            </header>
+            
+            <!--Flex-->
+            <div id="container">
+            <!--Input Data Form-->
+            <div>
+                <form>
+                    <!--Input Name-->
+                    <label for="nama">Name:</label>
+                    <input required type="text" placeholder="Your Name" id="name-input">
+                    <button>Enter</button>
+                    <br><br>
+
+                    <!--Input Birthday-->
+                    <label for="tgllahir">Birthday:</label>
+                    <input required type="text" placeholder="Your Birthday" id="tgllahir-input">
+                    <button>Enter</button>
+                    <br><br>
+
+                    <!--Input Gender-->
+                    <label>Gender:</label>
+                    <input required type="radio" name="jenisKelamin" value="laki-laki">Man
+                    <input required type="radio" name="jenisKelamin" value="perempuan">Woman
+                    <br><br>
+
+                    <!--Input Message-->
+                    <label for="pesan">Pesan:</label><br>
+                    <textarea id="pesan" name="pesan" rows="5" cols="30">Fill the blank area</textarea>
+                    <br><br>
+                 </form>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Pesan</th>
+                        <th>Profile</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+           
+            </div>
             <button id="tombol">Ganti Nama</button>
-
-            <form>
-                <input required type="text" placeholder="Nama Anda" id="name-input">
-                <button></button>
-            </form>
-
         </section>
     </main>
 
-    <footer>
+    <hr>
 
+    <footer>
+        <h4>Created by Ahmed</h3>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>

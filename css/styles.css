@@ -10,7 +10,9 @@
 nav {
     display: flex;
     background-color: aliceblue;
-}
+    margin-right: 10px;
+    }
+
 
 nav>a {
     border: 1px solid;
@@ -25,6 +27,9 @@ nav>a {
     background-image: url(../assets/logo.png);
     background-size: cover;
     border-radius: 50%;
+    margin-left: 5px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
 }
 
 hr {
@@ -45,6 +50,18 @@ hr {
     display: flex;
     flex-direction: row;
 }
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-profile {
+    display: flex;
+    flex-direction: column;
+}
+
 .foto-bg-home {
     background-image: url(../assets/bg-usk.jpg.png);
     background-repeat: round;
@@ -54,13 +71,23 @@ hr {
 
     background-repeat: round;
     background-image: url(../assets/foto-diri.png);
-    width: 1300px;
+    width: 900px;
     height: 480px;
 }
 
 h1 {
     font-size: xx-large;
     color:rgb(175, 249, 250) ;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.tab {
+    margin-block-start: 15px;
+    font-size: x-large;
+    font-family: cursive;
+    display: inline;
+    color:rgb(0, 255, 225) ;
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
@@ -81,4 +108,45 @@ main {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+}
+
+h2 {
+    margin-block-start: 0%;
+    margin-left: 10px;
+    font-family: cursive;
+}
+
+.profile-client {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 41%;
+    margin-block-start: 5px;
+    margin-block-end: 25px;
+    border: 1px solid black;
+}
+
+#section-our-profile {
+    background-image: url(../assets/bg-blue.jpg);
+    background-size: cover;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 7em;
+    font-family: cursive;
+}
+
+h4 {
+    font-family: cursive;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    margin-left: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
 }
